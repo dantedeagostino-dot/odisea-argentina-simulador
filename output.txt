@@ -1,0 +1,171 @@
+POR QUÉ TODA STARTUP ARGENTINA SE INCORPORA EN EL EXTERIOR   ·   Análisis impositivo comparado para legisladores · SaaS B2B · Marzo 2026
+Argentina — SAS o SA
+Delaware — C-Corp
+Islas Caimán
+BLOQUE 1 · Impuestos que paga una empresa de software todos los años (sobre cada US$100 que factura)
+Impuesto a las Ganancias
+(sobre utilidad neta)
+35% de la utilidad neta.
+21% — pero si reinvertís en I+D:
+0% efectivo. Section 174A: deducís el 100% de I+D ese año. Base imponible = 0.
+0%
+IVA
+(sobre cada factura emitida)
+21% sobre cada factura.
+Exportación de software: 0% (exento). Si vendés en Argentina: 21%.
+0% sales tax.
+0%
+Ingresos Brutos
+(IIBB, provincial)
+3–5% sobre facturación BRUTA,
+no sobre ganancia. Pagás aunque pierdas plata.
+No existe.
+No existe.
+Impuesto al cheque
+(débitos y créditos bancarios)
+1,2% por cada movimiento bancario.
+0,6% al débito + 0,6% al crédito.
+No existe.
+No existe.
+Retenciones
+(cobros con tarjeta / transferencia)
+0,5–3% retenido automáticamente en cada cobro.
+El fisco te pre-cobra antes de que veas el dinero.
+No aplica.
+No aplica.
+Impuesto de sellos
+(contratos)
+1–1,5% sobre el valor de cada contrato.
+No existe.
+No existe.
+Argentina
+Delaware
+Caimán
+BLOQUE 2 · Ciclo de vida de la startup: Nota Convertible → Ronda Valuada → Salida
+1
+Ronda de inversión
+vía nota convertible
+35%
+del capital invertido en impuestos.
+ARCA trata la nota como deuda → cobra Ganancias sobre intereses que nunca existieron.
+0%
+Ningún evento fiscal.
+0%
+Ningún evento fiscal.
+2
+Ronda de inversión
+valuada — la nota
+se convierte
+en acciones
+35%
+sobre la conversión.
+ARCA la trata como cancelación de pasivo → grava el monto total.
++  0,5% anual sobre valuación (Bienes Personales) aunque nadie cobró nada.
+0%
+Ningún evento fiscal.
+0%
+Ningún evento fiscal.
+3A
+Salida —
+Venta de
+la empresa
+44%
+en impuestos.
+35% corp. + 7% distribución + 15% fund.
+21–37%
+en impuestos.
+21% corp. Con beneficios fiscales para fundadores (QSBS), baja a 21%. Sin ellos, 37%.
+0%
+en impuestos.
+3B
+Salida —
+Salida a bolsa
+(IPO)
+0,5%
+anual sobre el valor de mercado de tus acciones,
+aunque no hayas vendido ninguna.
+0%
+Ningún evento fiscal.
+No pagás nada hasta que vendés.
+0%
+Ningún evento fiscal.
+No pagás nada hasta que vendés.
+QUÉ NECESITA CAMBIAR: (1) SAFEs tratados como equity, no como deuda · (2) Conversión a acciones: evento no imponible · (3) Neutralidad fiscal holding↔subsidiaria · (4) No gravar reinversión en I+D · (5) Blindaje estatutario vs. resoluciones IGJ   |   Fuentes: LIG, Ley 27.349, IRC §41/§174A/§1202, PWC Cayman Tax Summary 2025
+Por qué todo inversor argentino en startups opera desde el exterior
+⚠  En Argentina no existe un vehículo legal para constituir un fondo de Venture Capital.  No hay figura que permita recibir capital de múltiples inversores, pagar carried interest a los gestores y salir limpiamente. Todos los fondos que invierten en startups argentinas están constituidos en Delaware o Caimán — incluso los de argentinos.
+Argentina — SAS o SA
+Delaware — C-Corp
+Islas Caimán
+BLOQUE 3 · El inversor: ángel y capital de grupo
+1
+Ángel invierte
+vía nota
+convertible
+35%
+del capital en impuestos.
+ARCA trata la nota como deuda → cobra Ganancias sobre intereses que nunca existieron.
+0%
+Ningún evento fiscal.
+0%
+Ningún evento fiscal.
+2
+Ángel vende
+su participación
+15%
+sobre la ganancia.
+Sin ningún beneficio por haber apostado temprano.
+0%
+Con QSBS >5 años.
+Beneficio específico para inversores early-stage.
+0%
+Ningún evento fiscal.
+3
+Mover capital
+dentro del grupo
+(holding →
+subsidiaria)
+7%
+por cada movimiento.
+ARCA lo trata como dividendo o préstamo. Pagar sueldos o servidores desde el holding genera impuesto.
+0%
+Sin restricciones.
+El capital se mueve libremente dentro del grupo.
+0%
+Sin restricciones.
+Argentina — SAS o SA
+Delaware — C-Corp
+Islas Caimán
+BLOQUE 4 · Marco jurídico y seguridad financiera
+Estabilidad
+regulatorio
+Inestable.
+La IGJ puede cambiar las reglas por resolución de bajo rango, sin pasar por el Congreso. Ya inutilizó la SAS por resolución administrativa.
+Estable.
+La ley de sociedades solo cambia por el Congreso. Ningún funcionario puede modificar las reglas un lunes a la mañana.
+Estable.
+Certificado de exención fiscal inamovible por 20–50 años.
+Jurisprudencia
+Impredecible.
+Sin precedente vinculante. El fallo depende del juez de turno — dos causas idénticas pueden resolverse de manera opuesta. Riesgo no modelable para el inversor.
+Stare decisis.
+El precedente es vinculante. El inversor puede anticipar el resultado de un conflicto antes de firmar el contrato.
+Stare decisis.
+Common law británico. Precedente vinculante.
+Documentación
+estándar
+No existe.
+Sin estándar de mercado para SAFEs, term sheets ni SHA. Cada operación requiere negociación desde cero.
+Estándar global.
+SAFEs, term sheets y SHA estandarizados (YC Docs). Conocidos por cualquier inversor del mundo.
+Compatible.
+Totalmente compatible con el estándar Delaware.
+Resolución
+de conflictos
+Justicia ordinaria.
+Lenta, sin especialización en derecho societario. Un litigio puede durar años.
+Court of Chancery.
+Tribunal especializado, ágil y con siglos de precedentes. El estándar mundial para resolver conflictos societarios.
+Grand Court.
+Tribunal especializado y eficiente. Resolución rápida bajo common law británico.
+CONCLUSIÓN  Los parches fiscales son condición necesaria pero no suficiente. La SAS fue creada en 2017 y inutilizada por resolución administrativa en 2020 — sin pasar por el Congreso. Ese episodio define el problema: ningún inversor internacional compromete capital en una jurisdicción donde las reglas pueden cambiar un lunes a la mañana. Para que una holding local sea viable se necesitan tres cosas simultáneas: (1) neutralidad fiscal en todo el ciclo de vida  ·  (2) blindaje estatutario que ninguna resolución de la IGJ pueda perforar  ·  (3) mecanismo de resolución de conflictos predecible.  Con las tres, Argentina puede competir. Sin las tres, los parches fiscales solos no alcanzan.
+QUÉ NECESITA CAMBIAR: (1) Crear vehículo legal para fondos de VC · (2) Beneficio fiscal para inversores early-stage (equiv. QSBS) · (3) Neutralidad fiscal intra-grupo · (4) Blindaje estatutario vs. resoluciones IGJ · (5) Tribunal o cámara especializada en derecho societario   |   Fuentes: LGS, Ley 27.349, Res. IGJ 6/2020, Delaware GCL, Cayman Companies Act 2023

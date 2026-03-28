@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Press+Start+2P&display=swap');
+
+:root {
+  /* GBA Palette */
+  --gba-bg: #9bbc0f;
+  --gba-dark: #0f380f;
+  --gba-mid: #306230;
+  --gba-light: #8bac0f;
+
+  /* Premium Dashboard Palette */
+  --dash-bg: #0b0f19;
+  --dash-card: rgba(20, 25, 40, 0.7);
+  --dash-border: rgba(255, 255, 255, 0.1);
+  --dash-text: #e2e8f0;
+  --dash-accent: #3b82f6;
+  --dash-accent-glow: rgba(59, 130, 246, 0.5);
+  --danger: #ef4444;
+  --success: #10b981;
+
+  --font-retro: 'Press Start 2P', monospace;
+  --font-modern: 'Inter', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100vw;
+  min-height: 100vh;
+  background-color: var(--dash-bg);
+  color: var(--dash-text);
+  font-family: var(--font-modern);
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+#root {
+  width: 100%;
+  min-height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Glassmorphism Utilities */
+.glass-panel {
+  background: var(--dash-card);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid var(--dash-border);
+  border-radius: 16px;
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--dash-bg);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--dash-border);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--dash-accent);
+}

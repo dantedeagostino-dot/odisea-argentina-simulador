@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <!-- Retro Background -->
+  <rect width="32" height="32" fill="#0f172a" rx="6" />
+  
+  <!-- "A" in Pixel Art Style -->
+  <path fill="#fca5a5" d="M14,8 h4 v4 h-4 zM12,12 h8 v4 h-8 zM10,16 h12 v4 h-4 v4 h4 v4 h-12 v-4 h4 v-4 h-4 zM12,20 h8 v4 h-4 v-4 z" />
+  
+  <!-- Little scanline highlight -->
+  <rect x="4" y="4" width="24" height="2" fill="rgba(255,255,255,0.2)" />
+</svg>
