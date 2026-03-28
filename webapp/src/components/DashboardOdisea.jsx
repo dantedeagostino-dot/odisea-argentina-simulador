@@ -42,7 +42,7 @@ const DashboardOdisea = ({ gameStats, onRestart }) => {
   const taxPercentage = totalValue > 0 ? (gameStats.taxesPaid / totalValue) * 100 : 0;
   const cashPercentage = totalValue > 0 ? (gameStats.finalCash / totalValue) * 100 : 100;
 
-  const shareText = `Jugué Odisea Argentina 🇦🇷 y descubrí que una startup pierde el 44% de su valor en un exit por fricción fiscal.\n\nEn Delaware: 0% federal.\n\n¿Cuándo cambiamos las reglas? #OdiseaArgentina`;
+  const shareText = `Jugué Odisea Argentina 🇦🇷 y descubrí que una startup pierde el 44% de su valor en un exit por fricción fiscal.\n\nEn Delaware: 0% federal.\n\nJugar simulador: https://odisea-argentina-simulador.vercel.app/\n\n¿Cuándo cambiamos las reglas? #OdiseaArgentina`;
 
   return (
     <div className="dashboard-wrapper">
