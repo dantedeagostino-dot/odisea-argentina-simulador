@@ -150,9 +150,12 @@
 }
 
 .gba-dialogue-box {
-  background-color: var(--gba-bg);
+  background: linear-gradient(180deg, var(--gba-mid) 0%, var(--gba-dark) 100%);
+  color: #ffffff;
+  text-shadow: 1px 1px 0 #000;
   border-top: 4px solid var(--gba-dark);
-  padding: 15px;
+  box-shadow: inset 0 3px 10px rgba(0,0,0,0.4);
+  padding: 20px;
   min-height: 150px;
   display: flex;
   flex-direction: column;
@@ -160,8 +163,9 @@
 }
 
 .gba-dialogue-box p {
-  font-size: 0.75rem;
+  font-size: 0.8rem;
   line-height: 1.6;
+  margin-bottom: 15px;
 }
 
 .gba-options {
@@ -237,9 +241,9 @@
 @media screen and (max-width: 850px) {
   .gba-console {
     width: 100vw;
-    height: 100vh;
+    height: 100dvh;
     max-width: 100vw;
-    max-height: 100vh;
+    max-height: 100dvh;
     border-radius: 0;
     border: none;
     background-color: transparent;
@@ -261,8 +265,24 @@
   .truncate-text { max-width: 100%; width: 100%; text-align: center; margin-bottom: 5px; }
   .hp-bar-container { padding: 0; }
   
+  .gba-dialogue-box {
+    padding: 20px 15px max(40px, env(safe-area-inset-bottom, 20px)) 15px; /* iOS Safari safe bottom */
+    min-height: 35dvh; /* Dynamic viewport height */
+    justify-content: flex-start;
+  }
+
+  .gba-dialogue-box p {
+    font-size: 0.85rem;
+  }
+  
+  .gba-options {
+    gap: 12px;
+  }
+
   .gba-options button {
-    padding: 15px 10px;
-    font-size: 11px;
+    padding: 15px 12px;
+    font-size: 12px;
+    line-height: 1.4;
+    border-width: 3px;
   }
 }

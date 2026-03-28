@@ -75,3 +75,31 @@
   0%, 100% { transform: translateY(0); }
   50% { transform: translateY(-10px); }
 }
+
+/* Mobile Responsiveness for Menu */
+@media screen and (max-width: 850px) {
+  .menu-gba-screen {
+    width: 100vw;
+    height: 100dvh;
+    max-width: 100vw;
+    max-height: 100dvh;
+    border-radius: 0;
+    border: none;
+    box-shadow: none;
+  }
+  
+  .menu-title {
+    font-size: clamp(2rem, 8vw, 3rem);
+    word-wrap: break-word;
+    padding: 0 15px;
+  }
+  
+  .menu-subtitle {
+    font-size: clamp(0.75rem, 4vw, 1rem);
+    padding: 0 20px;
+  }
+  
+  .start-btn {
+    font-size: clamp(1.2rem, 5vw, 1.5rem);
+  }
+}
